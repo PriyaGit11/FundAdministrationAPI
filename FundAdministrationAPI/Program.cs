@@ -12,11 +12,14 @@ using System.Text;
 var builder = WebApplication.CreateBuilder(args); 
 
 // Serilog Configuration 
+var logFilePath =
+    builder.Configuration["SerilogSettings:LogFilePath"]!;
+
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Information()
     .WriteTo.Console()
     .WriteTo.File(
-        "Logs/log.txt",
+        logFilePath,
         rollingInterval: RollingInterval.Day)
     .CreateLogger();
  
@@ -49,7 +52,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 IssuerSigningKey = 
                     new SymmetricSecurityKey( 
                         Encoding.UTF8.GetBytes( 
-                            "ThisIsMySymmetricSecurityKeyJwtKey123456789")) 
+                            builder.Configuration["Jwt:Key"]!)) 
             }; 
     }); 
  

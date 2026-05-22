@@ -322,6 +322,7 @@ C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI\obj\Debug\ne
 C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI\obj\Debug\net8.0\FundAdministrationAPI.csproj.CoreCompileInputs.cache
 C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI\obj\Debug\net8.0\FundAdministrationAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI\obj\Debug\net8.0\FundAdministrationAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI\obj\Debug\net8.0\FundAdministrationAPI.sourcelink.json
 C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI\obj\Debug\net8.0\staticwebassets\msbuild.FundAdministrationAPI.Microsoft.AspNetCore.StaticWebAssets.props
@@ -336,4 +337,3 @@ C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI\obj\Debug\ne
 C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI\obj\Debug\net8.0\FundAdministrationAPI.pdb
 C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI\obj\Debug\net8.0\FundAdministrationAPI.genruntimeconfig.cache
 C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI\obj\Debug\net8.0\ref\FundAdministrationAPI.dll
-C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI\obj\Debug\net8.0\FundAdministrationAPI.sourcelink.json
