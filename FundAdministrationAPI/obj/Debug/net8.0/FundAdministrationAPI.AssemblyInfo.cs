@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FundAdministrationAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+323f04e53602ea38dc5a0ddbdad1fc927279657d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25b6f017aca4280e38c31b4e284ce0405b58575b")]
 [assembly: System.Reflection.AssemblyProductAttribute("FundAdministrationAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FundAdministrationAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
