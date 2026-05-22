@@ -12,9 +12,9 @@ namespace FundAdministrationAPI.Controllers
     public class InvestorsController : ControllerBase 
     { 
         private readonly IInvestorRepository _investorRepository;
-        private readonly ILogger<FundsController> _logger; 
+        private readonly ILogger<InvestorsController> _logger; 
  
-        public InvestorsController(IInvestorRepository investorRepository, ILogger<FundsController> logger) 
+        public InvestorsController(IInvestorRepository investorRepository, ILogger<InvestorsController> logger) 
         { 
             _investorRepository = investorRepository; 
             _logger = logger;
