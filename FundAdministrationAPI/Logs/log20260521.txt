@@ -1,0 +1,80 @@
+2026-05-21 22:24:35.172 +05:30 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-21 22:24:35.297 +05:30 [INF] Now listening on: http://localhost:5166
+2026-05-21 22:24:35.300 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-21 22:24:35.301 +05:30 [INF] Hosting environment: Development
+2026-05-21 22:24:35.303 +05:30 [INF] Content root path: C:\Users\Lenovo\Desktop\FundAdministrationAPI
+2026-05-21 22:24:46.766 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/index.html - null null
+2026-05-21 22:24:47.033 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/index.html - 200 null text/html;charset=utf-8 271.1581ms
+2026-05-21 22:24:47.184 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - null null
+2026-05-21 22:24:47.385 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 200.9714ms
+2026-05-21 22:25:05.365 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Authentication/GetToken - null 0
+2026-05-21 22:25:05.378 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-21 22:25:05.474 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.AuthenticationController.GetToken (FundAdministrationAPI)'
+2026-05-21 22:25:05.507 +05:30 [INF] Route matched with {action = "GetToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetToken() on controller FundAdministrationAPI.Controllers.AuthenticationController (FundAdministrationAPI).
+2026-05-21 22:25:05.513 +05:30 [INF] Generate Auth Token
+2026-05-21 22:25:05.569 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-21 22:25:05.599 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.AuthenticationController.GetToken (FundAdministrationAPI) in 83.8529ms
+2026-05-21 22:25:05.602 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.AuthenticationController.GetToken (FundAdministrationAPI)'
+2026-05-21 22:25:05.606 +05:30 [INF] HTTP POST /api/Authentication/GetToken responded 200 in 230.5338 ms
+2026-05-21 22:25:05.609 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Authentication/GetToken - 200 null application/json; charset=utf-8 243.7016ms
+2026-05-21 22:25:46.351 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/api/Funds/GetAllFunds - null null
+2026-05-21 22:25:46.417 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.FundsController.GetAllFunds (FundAdministrationAPI)'
+2026-05-21 22:25:46.426 +05:30 [INF] Route matched with {action = "GetAllFunds", controller = "Funds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFunds() on controller FundAdministrationAPI.Controllers.FundsController (FundAdministrationAPI).
+2026-05-21 22:25:46.587 +05:30 [INF] Fetching all funds
+2026-05-21 22:25:47.265 +05:30 [INF] Fetching completed for all funds
+2026-05-21 22:25:47.267 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FundAdministrationAPI.Models.Fund, FundAdministrationAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-21 22:25:47.288 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.FundsController.GetAllFunds (FundAdministrationAPI) in 856.9765ms
+2026-05-21 22:25:47.290 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.FundsController.GetAllFunds (FundAdministrationAPI)'
+2026-05-21 22:25:47.292 +05:30 [INF] HTTP GET /api/Funds/GetAllFunds responded 200 in 936.2730 ms
+2026-05-21 22:25:47.301 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/api/Funds/GetAllFunds - 200 null application/json; charset=utf-8 949.9679ms
+2026-05-21 22:26:31.252 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/index.html - null null
+2026-05-21 22:26:31.257 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/index.html - 200 null text/html;charset=utf-8 4.5383ms
+2026-05-21 22:26:31.416 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - null null
+2026-05-21 22:26:31.427 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.8402ms
+2026-05-21 22:44:46.816 +05:30 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-21 22:44:46.939 +05:30 [INF] Now listening on: http://localhost:5166
+2026-05-21 22:44:46.942 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-21 22:44:46.944 +05:30 [INF] Hosting environment: Development
+2026-05-21 22:44:46.945 +05:30 [INF] Content root path: C:\Users\Lenovo\Desktop\FundAdministrationAPI
+2026-05-21 22:44:55.554 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/index.html - null null
+2026-05-21 22:44:55.877 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/index.html - 200 null text/html;charset=utf-8 323.9045ms
+2026-05-21 22:44:56.049 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - null null
+2026-05-21 22:44:56.309 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 260.8313ms
+2026-05-21 22:45:04.145 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Authentication/GetToken - null 0
+2026-05-21 22:45:04.156 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-21 22:45:04.237 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.AuthenticationController.GetToken (FundAdministrationAPI)'
+2026-05-21 22:45:04.268 +05:30 [INF] Route matched with {action = "GetToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetToken() on controller FundAdministrationAPI.Controllers.AuthenticationController (FundAdministrationAPI).
+2026-05-21 22:45:04.272 +05:30 [INF] Generate Auth Token
+2026-05-21 22:45:04.326 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-21 22:45:04.352 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.AuthenticationController.GetToken (FundAdministrationAPI) in 78.4119ms
+2026-05-21 22:45:04.355 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.AuthenticationController.GetToken (FundAdministrationAPI)'
+2026-05-21 22:45:04.361 +05:30 [INF] HTTP POST /api/Authentication/GetToken responded 200 in 204.9073 ms
+2026-05-21 22:45:04.364 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Authentication/GetToken - 200 null application/json; charset=utf-8 219.412ms
+2026-05-21 22:45:43.471 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/api/Funds/GetAllFunds - null null
+2026-05-21 22:45:43.552 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.FundsController.GetAllFunds (FundAdministrationAPI)'
+2026-05-21 22:45:43.562 +05:30 [INF] Route matched with {action = "GetAllFunds", controller = "Funds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFunds() on controller FundAdministrationAPI.Controllers.FundsController (FundAdministrationAPI).
+2026-05-21 22:45:43.798 +05:30 [INF] Fetching all funds
+2026-05-21 22:45:44.428 +05:30 [INF] Fetching completed for all funds
+2026-05-21 22:45:44.430 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FundAdministrationAPI.Models.Fund, FundAdministrationAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-21 22:45:44.453 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.FundsController.GetAllFunds (FundAdministrationAPI) in 887.8667ms
+2026-05-21 22:45:44.458 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.FundsController.GetAllFunds (FundAdministrationAPI)'
+2026-05-21 22:45:44.460 +05:30 [INF] HTTP GET /api/Funds/GetAllFunds responded 200 in 983.0130 ms
+2026-05-21 22:45:44.471 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/api/Funds/GetAllFunds - 200 null application/json; charset=utf-8 999.2791ms
+2026-05-21 23:22:24.204 +05:30 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-21 23:22:24.404 +05:30 [INF] Now listening on: http://localhost:5166
+2026-05-21 23:22:24.407 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-21 23:22:24.409 +05:30 [INF] Hosting environment: Development
+2026-05-21 23:22:24.410 +05:30 [INF] Content root path: C:\Users\Lenovo\Desktop\FundAdministrationAPI
+2026-05-21 23:22:33.200 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/index.html - null null
+2026-05-21 23:22:33.708 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/index.html - 200 null text/html;charset=utf-8 512.4436ms
+2026-05-21 23:22:34.025 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - null null
+2026-05-21 23:22:34.447 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 422.3543ms
+2026-05-21 23:53:19.299 +05:30 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-21 23:53:19.570 +05:30 [INF] Now listening on: http://localhost:5166
+2026-05-21 23:53:19.578 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-21 23:53:19.581 +05:30 [INF] Hosting environment: Development
+2026-05-21 23:53:19.584 +05:30 [INF] Content root path: C:\Users\Lenovo\Desktop\FundAdministrationAPI
+2026-05-21 23:53:25.163 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/index.html - null null
+2026-05-21 23:53:25.595 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/index.html - 200 null text/html;charset=utf-8 436.0459ms
+2026-05-21 23:53:25.932 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - null null
+2026-05-21 23:53:26.370 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 438.2239ms
