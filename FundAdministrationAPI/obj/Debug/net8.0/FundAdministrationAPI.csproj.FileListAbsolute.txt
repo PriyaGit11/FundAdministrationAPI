@@ -336,3 +336,4 @@ C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI\obj\Debug\ne
 C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI\obj\Debug\net8.0\FundAdministrationAPI.pdb
 C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI\obj\Debug\net8.0\FundAdministrationAPI.genruntimeconfig.cache
 C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI\obj\Debug\net8.0\ref\FundAdministrationAPI.dll
+C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI\obj\Debug\net8.0\FundAdministrationAPI.sourcelink.json

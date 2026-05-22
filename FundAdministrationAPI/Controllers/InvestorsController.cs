@@ -11,11 +11,13 @@ namespace FundAdministrationAPI.Controllers
     [Authorize] 
     public class InvestorsController : ControllerBase 
     { 
-        private readonly IInvestorRepository _investorRepository; 
+        private readonly IInvestorRepository _investorRepository;
+        private readonly ILogger<FundsController> _logger; 
  
-        public InvestorsController(IInvestorRepository investorRepository) 
+        public InvestorsController(IInvestorRepository investorRepository, ILogger<FundsController> logger) 
         { 
             _investorRepository = investorRepository; 
+            _logger = logger;
         } 
  
         [HttpGet("GetAllInvestors")] 
