@@ -8,9 +8,6 @@ namespace FundAdministrationAPI.Models
  
         public string Currency { get; set; } = string.Empty; 
  
-        public DateTime LaunchDate { get; set; } 
- 
-        public ICollection<Investor> Investors { get; set; } 
-            = new List<Investor>(); 
+        public DateTime LaunchDate { get; set; }        
     }
 }

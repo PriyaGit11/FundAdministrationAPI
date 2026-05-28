@@ -7,6 +7,7 @@
 - Swagger Documentation 
 - Global Exception Handling 
 - Unit Testing  
+- Health Check Endpoint
 - Serilog Logging 
 
 ## Technologies 

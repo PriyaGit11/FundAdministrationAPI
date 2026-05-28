@@ -4,7 +4,7 @@ namespace FundAdministrationAPI.DTOs
 { 
     public class CreateFundDto 
     { 
-        [Required] 
+        [Required] //Data Annotations
         public string Name { get; set; } = string.Empty; 
  
         [Required] 

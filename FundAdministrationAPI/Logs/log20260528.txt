@@ -1,0 +1,399 @@
+2026-05-28 12:36:15.701 +05:30 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-28 12:36:15.927 +05:30 [INF] Now listening on: https://localhost:7016
+2026-05-28 12:36:15.929 +05:30 [INF] Now listening on: http://localhost:5166
+2026-05-28 12:36:15.932 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-28 12:36:15.933 +05:30 [INF] Hosting environment: Development
+2026-05-28 12:36:15.935 +05:30 [INF] Content root path: C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI
+2026-05-28 12:36:57.142 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7016/swagger - null null
+2026-05-28 12:36:57.206 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7016/swagger - 301 0 null 65.7652ms
+2026-05-28 12:36:57.223 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7016/swagger/index.html - null null
+2026-05-28 12:36:57.377 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7016/swagger/index.html - 200 null text/html;charset=utf-8 153.0212ms
+2026-05-28 12:36:57.391 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7016/swagger/swagger-ui.css - null null
+2026-05-28 12:36:57.391 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7016/swagger/swagger-ui-bundle.js - null null
+2026-05-28 12:36:57.392 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7016/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-28 12:36:57.442 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-05-28 12:36:57.442 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-05-28 12:36:57.442 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-05-28 12:36:57.444 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7016/swagger/swagger-ui.css - 200 144929 text/css 52.669ms
+2026-05-28 12:36:57.450 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7016/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 57.9802ms
+2026-05-28 12:36:57.455 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7016/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 62.9679ms
+2026-05-28 12:36:57.652 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7016/swagger/v1/swagger.json - null null
+2026-05-28 12:36:57.698 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7016/swagger/favicon-32x32.png - null null
+2026-05-28 12:36:57.703 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-05-28 12:36:57.706 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7016/swagger/favicon-32x32.png - 200 628 image/png 7.2131ms
+2026-05-28 12:36:57.824 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7016/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 171.3276ms
+2026-05-28 13:33:40.006 +05:30 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-28 13:33:40.122 +05:30 [INF] Now listening on: http://localhost:5166
+2026-05-28 13:33:40.125 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-28 13:33:40.127 +05:30 [INF] Hosting environment: Development
+2026-05-28 13:33:40.128 +05:30 [INF] Content root path: C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI
+2026-05-28 13:33:51.154 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/index.html - null null
+2026-05-28 13:33:51.423 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/index.html - 200 null text/html;charset=utf-8 271.501ms
+2026-05-28 13:33:51.544 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - null null
+2026-05-28 13:33:51.702 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 158.8291ms
+2026-05-28 13:34:05.389 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Authentication/GetToken - null 0
+2026-05-28 13:34:05.408 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-28 13:34:05.512 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.AuthenticationController.GetToken (FundAdministrationAPI)'
+2026-05-28 13:34:05.544 +05:30 [INF] Route matched with {action = "GetToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetToken() on controller FundAdministrationAPI.Controllers.AuthenticationController (FundAdministrationAPI).
+2026-05-28 13:34:05.550 +05:30 [INF] Generate Auth Token
+2026-05-28 13:34:05.601 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-28 13:34:05.632 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.AuthenticationController.GetToken (FundAdministrationAPI) in 81.6174ms
+2026-05-28 13:34:05.635 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.AuthenticationController.GetToken (FundAdministrationAPI)'
+2026-05-28 13:34:05.639 +05:30 [INF] HTTP POST /api/Authentication/GetToken responded 200 in 236.0118 ms
+2026-05-28 13:34:05.645 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Authentication/GetToken - 200 null application/json; charset=utf-8 255.311ms
+2026-05-28 13:35:32.326 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Funds/CreateFund - application/json 92
+2026-05-28 13:35:32.413 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.FundsController.CreateFund (FundAdministrationAPI)'
+2026-05-28 13:35:32.428 +05:30 [INF] Route matched with {action = "CreateFund", controller = "Funds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateFund(FundAdministrationAPI.DTOs.CreateFundDto) on controller FundAdministrationAPI.Controllers.FundsController (FundAdministrationAPI).
+2026-05-28 13:35:32.649 +05:30 [INF] Create funds record
+2026-05-28 13:35:32.653 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2026-05-28 13:35:32.657 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.FundsController.CreateFund (FundAdministrationAPI) in 226.4412ms
+2026-05-28 13:35:32.661 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.FundsController.CreateFund (FundAdministrationAPI)'
+2026-05-28 13:35:32.663 +05:30 [INF] HTTP POST /api/Funds/CreateFund responded 400 in 331.0676 ms
+2026-05-28 13:35:32.670 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Funds/CreateFund - 400 null text/plain; charset=utf-8 344.5556ms
+2026-05-28 13:35:47.371 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Funds/CreateFund - application/json 92
+2026-05-28 13:35:47.383 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.FundsController.CreateFund (FundAdministrationAPI)'
+2026-05-28 13:35:47.385 +05:30 [INF] Route matched with {action = "CreateFund", controller = "Funds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateFund(FundAdministrationAPI.DTOs.CreateFundDto) on controller FundAdministrationAPI.Controllers.FundsController (FundAdministrationAPI).
+2026-05-28 13:35:47.442 +05:30 [INF] Create funds record
+2026-05-28 13:35:48.237 +05:30 [INF] Saved 1 entities to in-memory store.
+2026-05-28 13:35:48.262 +05:30 [INF] Funds record created successfully
+2026-05-28 13:35:48.264 +05:30 [INF] Executing OkObjectResult, writing value of type 'FundAdministrationAPI.Models.Fund'.
+2026-05-28 13:35:48.284 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.FundsController.CreateFund (FundAdministrationAPI) in 896.5102ms
+2026-05-28 13:35:48.288 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.FundsController.CreateFund (FundAdministrationAPI)'
+2026-05-28 13:35:48.291 +05:30 [INF] HTTP POST /api/Funds/CreateFund responded 200 in 912.0688 ms
+2026-05-28 13:35:48.297 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Funds/CreateFund - 200 null application/json; charset=utf-8 925.4181ms
+2026-05-28 13:36:06.750 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Funds/CreateFund - application/json 95
+2026-05-28 13:36:06.756 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.FundsController.CreateFund (FundAdministrationAPI)'
+2026-05-28 13:36:06.758 +05:30 [INF] Route matched with {action = "CreateFund", controller = "Funds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateFund(FundAdministrationAPI.DTOs.CreateFundDto) on controller FundAdministrationAPI.Controllers.FundsController (FundAdministrationAPI).
+2026-05-28 13:36:06.764 +05:30 [INF] Create funds record
+2026-05-28 13:36:06.810 +05:30 [INF] Saved 1 entities to in-memory store.
+2026-05-28 13:36:06.812 +05:30 [INF] Funds record created successfully
+2026-05-28 13:36:06.813 +05:30 [INF] Executing OkObjectResult, writing value of type 'FundAdministrationAPI.Models.Fund'.
+2026-05-28 13:36:06.816 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.FundsController.CreateFund (FundAdministrationAPI) in 55.199ms
+2026-05-28 13:36:06.820 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.FundsController.CreateFund (FundAdministrationAPI)'
+2026-05-28 13:36:06.822 +05:30 [INF] HTTP POST /api/Funds/CreateFund responded 200 in 67.7456 ms
+2026-05-28 13:36:06.825 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Funds/CreateFund - 200 null application/json; charset=utf-8 74.9694ms
+2026-05-28 13:36:23.535 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/api/Funds/GetAllFunds - null null
+2026-05-28 13:36:23.542 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.FundsController.GetAllFunds (FundAdministrationAPI)'
+2026-05-28 13:36:23.553 +05:30 [INF] Route matched with {action = "GetAllFunds", controller = "Funds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFunds() on controller FundAdministrationAPI.Controllers.FundsController (FundAdministrationAPI).
+2026-05-28 13:36:23.558 +05:30 [INF] Fetching all funds
+2026-05-28 13:36:23.744 +05:30 [INF] Fetching completed for all funds
+2026-05-28 13:36:23.746 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FundAdministrationAPI.Models.Fund, FundAdministrationAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-28 13:36:23.751 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.FundsController.GetAllFunds (FundAdministrationAPI) in 194.9302ms
+2026-05-28 13:36:23.753 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.FundsController.GetAllFunds (FundAdministrationAPI)'
+2026-05-28 13:36:23.754 +05:30 [INF] HTTP GET /api/Funds/GetAllFunds responded 200 in 213.7167 ms
+2026-05-28 13:36:23.758 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/api/Funds/GetAllFunds - 200 null application/json; charset=utf-8 222.2477ms
+2026-05-28 13:37:12.616 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Investors/CreateInvestors - application/json 110
+2026-05-28 13:37:12.621 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.InvestorsController.CreateInvestors (FundAdministrationAPI)'
+2026-05-28 13:37:12.630 +05:30 [INF] Route matched with {action = "CreateInvestors", controller = "Investors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateInvestors(FundAdministrationAPI.DTOs.CreateInvestorDto) on controller FundAdministrationAPI.Controllers.InvestorsController (FundAdministrationAPI).
+2026-05-28 13:37:12.665 +05:30 [INF] Saved 1 entities to in-memory store.
+2026-05-28 13:37:12.667 +05:30 [INF] Executing OkObjectResult, writing value of type 'FundAdministrationAPI.Models.Investor'.
+2026-05-28 13:37:12.673 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.InvestorsController.CreateInvestors (FundAdministrationAPI) in 40.0424ms
+2026-05-28 13:37:12.676 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.InvestorsController.CreateInvestors (FundAdministrationAPI)'
+2026-05-28 13:37:12.678 +05:30 [INF] HTTP POST /api/Investors/CreateInvestors responded 200 in 56.9874 ms
+2026-05-28 13:37:12.680 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Investors/CreateInvestors - 200 null application/json; charset=utf-8 63.952ms
+2026-05-28 13:37:37.916 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Investors/CreateInvestors - application/json 110
+2026-05-28 13:37:37.921 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.InvestorsController.CreateInvestors (FundAdministrationAPI)'
+2026-05-28 13:37:37.922 +05:30 [INF] Route matched with {action = "CreateInvestors", controller = "Investors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateInvestors(FundAdministrationAPI.DTOs.CreateInvestorDto) on controller FundAdministrationAPI.Controllers.InvestorsController (FundAdministrationAPI).
+2026-05-28 13:37:37.927 +05:30 [INF] Saved 1 entities to in-memory store.
+2026-05-28 13:37:37.929 +05:30 [INF] Executing OkObjectResult, writing value of type 'FundAdministrationAPI.Models.Investor'.
+2026-05-28 13:37:37.934 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.InvestorsController.CreateInvestors (FundAdministrationAPI) in 9.4071ms
+2026-05-28 13:37:37.938 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.InvestorsController.CreateInvestors (FundAdministrationAPI)'
+2026-05-28 13:37:37.939 +05:30 [INF] HTTP POST /api/Investors/CreateInvestors responded 200 in 18.9239 ms
+2026-05-28 13:37:37.943 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Investors/CreateInvestors - 200 null application/json; charset=utf-8 26.525ms
+2026-05-28 13:37:51.758 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/api/Investors/GetAllInvestors - null null
+2026-05-28 13:37:51.771 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.InvestorsController.GetAllInvestors (FundAdministrationAPI)'
+2026-05-28 13:37:51.780 +05:30 [INF] Route matched with {action = "GetAllInvestors", controller = "Investors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllInvestors() on controller FundAdministrationAPI.Controllers.InvestorsController (FundAdministrationAPI).
+2026-05-28 13:37:51.973 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FundAdministrationAPI.Models.Investor, FundAdministrationAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-28 13:37:51.976 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.InvestorsController.GetAllInvestors (FundAdministrationAPI) in 192.9351ms
+2026-05-28 13:37:51.979 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.InvestorsController.GetAllInvestors (FundAdministrationAPI)'
+2026-05-28 13:37:51.981 +05:30 [INF] HTTP GET /api/Investors/GetAllInvestors responded 200 in 210.5844 ms
+2026-05-28 13:37:51.984 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/api/Investors/GetAllInvestors - 200 null application/json; charset=utf-8 225.9874ms
+2026-05-28 13:39:56.450 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - application/json 137
+2026-05-28 13:39:56.454 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 13:39:56.459 +05:30 [INF] Route matched with {action = "CreateTransaction", controller = "Transactions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTransaction(FundAdministrationAPI.DTOs.CreateTransactionDto) on controller FundAdministrationAPI.Controllers.TransactionsController (FundAdministrationAPI).
+2026-05-28 13:39:56.501 +05:30 [INF] Saved 1 entities to in-memory store.
+2026-05-28 13:39:56.503 +05:30 [INF] Executing OkObjectResult, writing value of type 'FundAdministrationAPI.Models.Transaction'.
+2026-05-28 13:39:56.510 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI) in 48.543ms
+2026-05-28 13:39:56.512 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 13:39:56.514 +05:30 [INF] HTTP POST /api/Transactions/CreateTransaction responded 200 in 60.3163 ms
+2026-05-28 13:39:56.516 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - 200 null application/json; charset=utf-8 66.287ms
+2026-05-28 13:40:21.072 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - application/json 136
+2026-05-28 13:40:21.076 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 13:40:21.078 +05:30 [INF] Route matched with {action = "CreateTransaction", controller = "Transactions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTransaction(FundAdministrationAPI.DTOs.CreateTransactionDto) on controller FundAdministrationAPI.Controllers.TransactionsController (FundAdministrationAPI).
+2026-05-28 13:40:21.082 +05:30 [INF] Saved 1 entities to in-memory store.
+2026-05-28 13:40:21.084 +05:30 [INF] Executing OkObjectResult, writing value of type 'FundAdministrationAPI.Models.Transaction'.
+2026-05-28 13:40:21.086 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI) in 5.8761ms
+2026-05-28 13:40:21.090 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 13:40:21.093 +05:30 [INF] HTTP POST /api/Transactions/CreateTransaction responded 200 in 17.0321 ms
+2026-05-28 13:40:21.095 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - 200 null application/json; charset=utf-8 23.4096ms
+2026-05-28 13:40:54.014 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - application/json 138
+2026-05-28 13:40:54.018 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 13:40:54.019 +05:30 [INF] Route matched with {action = "CreateTransaction", controller = "Transactions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTransaction(FundAdministrationAPI.DTOs.CreateTransactionDto) on controller FundAdministrationAPI.Controllers.TransactionsController (FundAdministrationAPI).
+2026-05-28 13:40:54.025 +05:30 [INF] Saved 1 entities to in-memory store.
+2026-05-28 13:40:54.027 +05:30 [INF] Executing OkObjectResult, writing value of type 'FundAdministrationAPI.Models.Transaction'.
+2026-05-28 13:40:54.029 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI) in 6.7311ms
+2026-05-28 13:40:54.032 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 13:40:54.034 +05:30 [INF] HTTP POST /api/Transactions/CreateTransaction responded 200 in 16.3562 ms
+2026-05-28 13:40:54.036 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - 200 null application/json; charset=utf-8 21.4867ms
+2026-05-28 13:41:50.765 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - application/json 137
+2026-05-28 13:41:50.770 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 13:41:50.771 +05:30 [INF] Route matched with {action = "CreateTransaction", controller = "Transactions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTransaction(FundAdministrationAPI.DTOs.CreateTransactionDto) on controller FundAdministrationAPI.Controllers.TransactionsController (FundAdministrationAPI).
+2026-05-28 13:41:50.775 +05:30 [INF] Saved 1 entities to in-memory store.
+2026-05-28 13:41:50.777 +05:30 [INF] Executing OkObjectResult, writing value of type 'FundAdministrationAPI.Models.Transaction'.
+2026-05-28 13:41:50.779 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI) in 5.9529ms
+2026-05-28 13:41:50.786 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 13:41:50.789 +05:30 [INF] HTTP POST /api/Transactions/CreateTransaction responded 200 in 19.5991 ms
+2026-05-28 13:41:50.791 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - 200 null application/json; charset=utf-8 25.9867ms
+2026-05-28 13:42:10.398 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/api/Transactions/GetFundSummary - null null
+2026-05-28 13:42:10.403 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.TransactionsController.GetFundSummary (FundAdministrationAPI)'
+2026-05-28 13:42:10.409 +05:30 [INF] Route matched with {action = "GetFundSummary", controller = "Transactions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFundSummary() on controller FundAdministrationAPI.Controllers.TransactionsController (FundAdministrationAPI).
+2026-05-28 13:42:10.504 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType1`5[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], FundAdministrationAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-28 13:42:10.513 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.TransactionsController.GetFundSummary (FundAdministrationAPI) in 100.2373ms
+2026-05-28 13:42:10.515 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.TransactionsController.GetFundSummary (FundAdministrationAPI)'
+2026-05-28 13:42:10.517 +05:30 [INF] HTTP GET /api/Transactions/GetFundSummary responded 200 in 114.6186 ms
+2026-05-28 13:42:10.519 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/api/Transactions/GetFundSummary - 200 null application/json; charset=utf-8 120.7889ms
+2026-05-28 13:55:30.752 +05:30 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-28 13:55:30.866 +05:30 [INF] Now listening on: http://localhost:5166
+2026-05-28 13:55:30.870 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-28 13:55:30.871 +05:30 [INF] Hosting environment: Development
+2026-05-28 13:55:30.872 +05:30 [INF] Content root path: C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI
+2026-05-28 13:55:46.504 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/index.html - null null
+2026-05-28 13:55:46.718 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/index.html - 200 null text/html;charset=utf-8 222.2991ms
+2026-05-28 13:55:46.845 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - null null
+2026-05-28 13:55:47.031 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 185.9051ms
+2026-05-28 13:55:58.018 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Authentication/GetToken - null 0
+2026-05-28 13:55:58.032 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-28 13:55:58.098 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.AuthenticationController.GetToken (FundAdministrationAPI)'
+2026-05-28 13:55:58.123 +05:30 [INF] Route matched with {action = "GetToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetToken() on controller FundAdministrationAPI.Controllers.AuthenticationController (FundAdministrationAPI).
+2026-05-28 13:55:58.130 +05:30 [INF] Generate Auth Token
+2026-05-28 13:55:58.176 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-28 13:55:58.207 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.AuthenticationController.GetToken (FundAdministrationAPI) in 75.3446ms
+2026-05-28 13:55:58.209 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.AuthenticationController.GetToken (FundAdministrationAPI)'
+2026-05-28 13:55:58.215 +05:30 [INF] HTTP POST /api/Authentication/GetToken responded 200 in 185.7314 ms
+2026-05-28 13:55:58.219 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Authentication/GetToken - 200 null application/json; charset=utf-8 201.2639ms
+2026-05-28 13:56:58.834 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Funds/CreateFund - application/json 87
+2026-05-28 13:56:58.895 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.FundsController.CreateFund (FundAdministrationAPI)'
+2026-05-28 13:56:58.911 +05:30 [INF] Route matched with {action = "CreateFund", controller = "Funds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateFund(FundAdministrationAPI.DTOs.CreateFundDto) on controller FundAdministrationAPI.Controllers.FundsController (FundAdministrationAPI).
+2026-05-28 13:56:59.093 +05:30 [INF] Create funds record
+2026-05-28 13:56:59.649 +05:30 [INF] Saved 1 entities to in-memory store.
+2026-05-28 13:56:59.656 +05:30 [INF] Funds record created successfully
+2026-05-28 13:56:59.658 +05:30 [INF] Executing OkObjectResult, writing value of type 'FundAdministrationAPI.Models.Fund'.
+2026-05-28 13:56:59.667 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.FundsController.CreateFund (FundAdministrationAPI) in 752.7295ms
+2026-05-28 13:56:59.669 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.FundsController.CreateFund (FundAdministrationAPI)'
+2026-05-28 13:56:59.671 +05:30 [INF] HTTP POST /api/Funds/CreateFund responded 200 in 831.3513 ms
+2026-05-28 13:56:59.679 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Funds/CreateFund - 200 null application/json; charset=utf-8 844.5479ms
+2026-05-28 13:57:12.633 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Funds/CreateFund - application/json 90
+2026-05-28 13:57:12.643 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.FundsController.CreateFund (FundAdministrationAPI)'
+2026-05-28 13:57:12.645 +05:30 [INF] Route matched with {action = "CreateFund", controller = "Funds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateFund(FundAdministrationAPI.DTOs.CreateFundDto) on controller FundAdministrationAPI.Controllers.FundsController (FundAdministrationAPI).
+2026-05-28 13:57:12.659 +05:30 [INF] Create funds record
+2026-05-28 13:57:12.703 +05:30 [INF] Saved 1 entities to in-memory store.
+2026-05-28 13:57:12.706 +05:30 [INF] Funds record created successfully
+2026-05-28 13:57:12.707 +05:30 [INF] Executing OkObjectResult, writing value of type 'FundAdministrationAPI.Models.Fund'.
+2026-05-28 13:57:12.710 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.FundsController.CreateFund (FundAdministrationAPI) in 59.0144ms
+2026-05-28 13:57:12.712 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.FundsController.CreateFund (FundAdministrationAPI)'
+2026-05-28 13:57:12.715 +05:30 [INF] HTTP POST /api/Funds/CreateFund responded 200 in 76.8932 ms
+2026-05-28 13:57:12.718 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Funds/CreateFund - 200 null application/json; charset=utf-8 85.0418ms
+2026-05-28 13:57:23.779 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Funds/CreateFund - application/json 87
+2026-05-28 13:57:23.786 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.FundsController.CreateFund (FundAdministrationAPI)'
+2026-05-28 13:57:23.788 +05:30 [INF] Route matched with {action = "CreateFund", controller = "Funds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateFund(FundAdministrationAPI.DTOs.CreateFundDto) on controller FundAdministrationAPI.Controllers.FundsController (FundAdministrationAPI).
+2026-05-28 13:57:23.794 +05:30 [INF] Create funds record
+2026-05-28 13:57:23.819 +05:30 [INF] Saved 1 entities to in-memory store.
+2026-05-28 13:57:23.821 +05:30 [INF] Funds record created successfully
+2026-05-28 13:57:23.823 +05:30 [INF] Executing OkObjectResult, writing value of type 'FundAdministrationAPI.Models.Fund'.
+2026-05-28 13:57:23.825 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.FundsController.CreateFund (FundAdministrationAPI) in 35.0399ms
+2026-05-28 13:57:23.828 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.FundsController.CreateFund (FundAdministrationAPI)'
+2026-05-28 13:57:23.830 +05:30 [INF] HTTP POST /api/Funds/CreateFund responded 200 in 45.9591 ms
+2026-05-28 13:57:23.834 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Funds/CreateFund - 200 null application/json; charset=utf-8 54.7073ms
+2026-05-28 13:57:40.169 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/api/Funds/GetAllFunds - null null
+2026-05-28 13:57:40.174 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.FundsController.GetAllFunds (FundAdministrationAPI)'
+2026-05-28 13:57:40.181 +05:30 [INF] Route matched with {action = "GetAllFunds", controller = "Funds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFunds() on controller FundAdministrationAPI.Controllers.FundsController (FundAdministrationAPI).
+2026-05-28 13:57:40.186 +05:30 [INF] Fetching all funds
+2026-05-28 13:57:40.348 +05:30 [INF] Fetching completed for all funds
+2026-05-28 13:57:40.349 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FundAdministrationAPI.Models.Fund, FundAdministrationAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-28 13:57:40.353 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.FundsController.GetAllFunds (FundAdministrationAPI) in 168.1647ms
+2026-05-28 13:57:40.357 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.FundsController.GetAllFunds (FundAdministrationAPI)'
+2026-05-28 13:57:40.360 +05:30 [INF] HTTP GET /api/Funds/GetAllFunds responded 200 in 186.2231 ms
+2026-05-28 13:57:40.363 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/api/Funds/GetAllFunds - 200 null application/json; charset=utf-8 193.7057ms
+2026-05-28 13:58:55.010 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Investors/CreateInvestors - application/json 114
+2026-05-28 13:58:55.015 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.InvestorsController.CreateInvestors (FundAdministrationAPI)'
+2026-05-28 13:58:55.024 +05:30 [INF] Route matched with {action = "CreateInvestors", controller = "Investors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateInvestors(FundAdministrationAPI.DTOs.CreateInvestorDto) on controller FundAdministrationAPI.Controllers.InvestorsController (FundAdministrationAPI).
+2026-05-28 13:58:55.062 +05:30 [INF] Saved 1 entities to in-memory store.
+2026-05-28 13:58:55.066 +05:30 [INF] Executing OkObjectResult, writing value of type 'FundAdministrationAPI.Models.Investor'.
+2026-05-28 13:58:55.070 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.InvestorsController.CreateInvestors (FundAdministrationAPI) in 43.5293ms
+2026-05-28 13:58:55.072 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.InvestorsController.CreateInvestors (FundAdministrationAPI)'
+2026-05-28 13:58:55.074 +05:30 [INF] HTTP POST /api/Investors/CreateInvestors responded 200 in 59.3329 ms
+2026-05-28 13:58:55.077 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Investors/CreateInvestors - 200 null application/json; charset=utf-8 67.0348ms
+2026-05-28 13:59:35.963 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Investors/CreateInvestors - application/json 114
+2026-05-28 13:59:35.969 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.InvestorsController.CreateInvestors (FundAdministrationAPI)'
+2026-05-28 13:59:35.973 +05:30 [INF] Route matched with {action = "CreateInvestors", controller = "Investors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateInvestors(FundAdministrationAPI.DTOs.CreateInvestorDto) on controller FundAdministrationAPI.Controllers.InvestorsController (FundAdministrationAPI).
+2026-05-28 13:59:35.982 +05:30 [INF] Saved 1 entities to in-memory store.
+2026-05-28 13:59:36.042 +05:30 [INF] Executing OkObjectResult, writing value of type 'FundAdministrationAPI.Models.Investor'.
+2026-05-28 13:59:36.044 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.InvestorsController.CreateInvestors (FundAdministrationAPI) in 68.7007ms
+2026-05-28 13:59:36.046 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.InvestorsController.CreateInvestors (FundAdministrationAPI)'
+2026-05-28 13:59:36.048 +05:30 [INF] HTTP POST /api/Investors/CreateInvestors responded 200 in 79.0114 ms
+2026-05-28 13:59:36.051 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Investors/CreateInvestors - 200 null application/json; charset=utf-8 87.3214ms
+2026-05-28 13:59:54.930 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Investors/CreateInvestors - application/json 114
+2026-05-28 13:59:54.934 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.InvestorsController.CreateInvestors (FundAdministrationAPI)'
+2026-05-28 13:59:54.935 +05:30 [INF] Route matched with {action = "CreateInvestors", controller = "Investors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateInvestors(FundAdministrationAPI.DTOs.CreateInvestorDto) on controller FundAdministrationAPI.Controllers.InvestorsController (FundAdministrationAPI).
+2026-05-28 13:59:54.939 +05:30 [INF] Saved 1 entities to in-memory store.
+2026-05-28 13:59:54.941 +05:30 [INF] Executing OkObjectResult, writing value of type 'FundAdministrationAPI.Models.Investor'.
+2026-05-28 13:59:54.943 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.InvestorsController.CreateInvestors (FundAdministrationAPI) in 5.6245ms
+2026-05-28 13:59:54.946 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.InvestorsController.CreateInvestors (FundAdministrationAPI)'
+2026-05-28 13:59:54.947 +05:30 [INF] HTTP POST /api/Investors/CreateInvestors responded 200 in 14.3904 ms
+2026-05-28 13:59:54.953 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Investors/CreateInvestors - 200 null application/json; charset=utf-8 23.1659ms
+2026-05-28 14:00:08.644 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/api/Investors/GetAllInvestors - null null
+2026-05-28 14:00:08.648 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.InvestorsController.GetAllInvestors (FundAdministrationAPI)'
+2026-05-28 14:00:08.655 +05:30 [INF] Route matched with {action = "GetAllInvestors", controller = "Investors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllInvestors() on controller FundAdministrationAPI.Controllers.InvestorsController (FundAdministrationAPI).
+2026-05-28 14:00:08.793 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FundAdministrationAPI.Models.Investor, FundAdministrationAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-28 14:00:08.797 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.InvestorsController.GetAllInvestors (FundAdministrationAPI) in 139.445ms
+2026-05-28 14:00:08.800 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.InvestorsController.GetAllInvestors (FundAdministrationAPI)'
+2026-05-28 14:00:08.801 +05:30 [INF] HTTP GET /api/Investors/GetAllInvestors responded 200 in 153.9249 ms
+2026-05-28 14:00:08.804 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/api/Investors/GetAllInvestors - 200 null application/json; charset=utf-8 160.0823ms
+2026-05-28 14:01:34.711 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - application/json 138
+2026-05-28 14:01:34.716 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 14:01:34.722 +05:30 [INF] Route matched with {action = "CreateTransaction", controller = "Transactions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTransaction(FundAdministrationAPI.DTOs.CreateTransactionDto) on controller FundAdministrationAPI.Controllers.TransactionsController (FundAdministrationAPI).
+2026-05-28 14:01:34.775 +05:30 [INF] Saved 1 entities to in-memory store.
+2026-05-28 14:01:34.778 +05:30 [INF] Executing OkObjectResult, writing value of type 'FundAdministrationAPI.Models.Transaction'.
+2026-05-28 14:01:34.789 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI) in 64.4953ms
+2026-05-28 14:01:34.792 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 14:01:34.794 +05:30 [INF] HTTP POST /api/Transactions/CreateTransaction responded 200 in 78.8301 ms
+2026-05-28 14:01:34.797 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - 200 null application/json; charset=utf-8 86.1017ms
+2026-05-28 14:02:01.959 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - application/json 137
+2026-05-28 14:02:01.974 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 14:02:01.977 +05:30 [INF] Route matched with {action = "CreateTransaction", controller = "Transactions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTransaction(FundAdministrationAPI.DTOs.CreateTransactionDto) on controller FundAdministrationAPI.Controllers.TransactionsController (FundAdministrationAPI).
+2026-05-28 14:02:01.990 +05:30 [INF] Saved 1 entities to in-memory store.
+2026-05-28 14:02:01.992 +05:30 [INF] Executing OkObjectResult, writing value of type 'FundAdministrationAPI.Models.Transaction'.
+2026-05-28 14:02:01.993 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI) in 4.7296ms
+2026-05-28 14:02:01.999 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 14:02:02.000 +05:30 [INF] HTTP POST /api/Transactions/CreateTransaction responded 200 in 27.8291 ms
+2026-05-28 14:02:02.003 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - 200 null application/json; charset=utf-8 43.6472ms
+2026-05-28 14:02:46.255 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - application/json 137
+2026-05-28 14:02:46.258 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 14:02:46.260 +05:30 [INF] Route matched with {action = "CreateTransaction", controller = "Transactions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTransaction(FundAdministrationAPI.DTOs.CreateTransactionDto) on controller FundAdministrationAPI.Controllers.TransactionsController (FundAdministrationAPI).
+2026-05-28 14:02:46.265 +05:30 [INF] Saved 1 entities to in-memory store.
+2026-05-28 14:02:46.266 +05:30 [INF] Executing OkObjectResult, writing value of type 'FundAdministrationAPI.Models.Transaction'.
+2026-05-28 14:02:46.270 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI) in 7.8905ms
+2026-05-28 14:02:46.279 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 14:02:46.280 +05:30 [INF] HTTP POST /api/Transactions/CreateTransaction responded 200 in 22.4363 ms
+2026-05-28 14:02:46.285 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - 200 null application/json; charset=utf-8 30.2882ms
+2026-05-28 14:02:57.595 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - application/json 136
+2026-05-28 14:02:57.607 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 14:02:57.609 +05:30 [INF] Route matched with {action = "CreateTransaction", controller = "Transactions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTransaction(FundAdministrationAPI.DTOs.CreateTransactionDto) on controller FundAdministrationAPI.Controllers.TransactionsController (FundAdministrationAPI).
+2026-05-28 14:02:57.618 +05:30 [INF] Saved 1 entities to in-memory store.
+2026-05-28 14:02:57.626 +05:30 [INF] Executing OkObjectResult, writing value of type 'FundAdministrationAPI.Models.Transaction'.
+2026-05-28 14:02:57.629 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI) in 17.7823ms
+2026-05-28 14:02:57.631 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 14:02:57.633 +05:30 [INF] HTTP POST /api/Transactions/CreateTransaction responded 200 in 34.0716 ms
+2026-05-28 14:02:57.636 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - 200 null application/json; charset=utf-8 41.0211ms
+2026-05-28 14:03:47.489 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - application/json 136
+2026-05-28 14:03:47.493 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 14:03:47.494 +05:30 [INF] Route matched with {action = "CreateTransaction", controller = "Transactions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTransaction(FundAdministrationAPI.DTOs.CreateTransactionDto) on controller FundAdministrationAPI.Controllers.TransactionsController (FundAdministrationAPI).
+2026-05-28 14:03:47.498 +05:30 [INF] Saved 1 entities to in-memory store.
+2026-05-28 14:03:47.499 +05:30 [INF] Executing OkObjectResult, writing value of type 'FundAdministrationAPI.Models.Transaction'.
+2026-05-28 14:03:47.501 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI) in 4.7914ms
+2026-05-28 14:03:47.504 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 14:03:47.506 +05:30 [INF] HTTP POST /api/Transactions/CreateTransaction responded 200 in 14.2571 ms
+2026-05-28 14:03:47.511 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - 200 null application/json; charset=utf-8 21.822ms
+2026-05-28 14:04:09.380 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - application/json 137
+2026-05-28 14:04:09.384 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 14:04:09.386 +05:30 [INF] Route matched with {action = "CreateTransaction", controller = "Transactions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTransaction(FundAdministrationAPI.DTOs.CreateTransactionDto) on controller FundAdministrationAPI.Controllers.TransactionsController (FundAdministrationAPI).
+2026-05-28 14:04:09.389 +05:30 [INF] Saved 1 entities to in-memory store.
+2026-05-28 14:04:09.391 +05:30 [INF] Executing OkObjectResult, writing value of type 'FundAdministrationAPI.Models.Transaction'.
+2026-05-28 14:04:09.393 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI) in 4.8843ms
+2026-05-28 14:04:09.396 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 14:04:09.399 +05:30 [INF] HTTP POST /api/Transactions/CreateTransaction responded 200 in 15.6227 ms
+2026-05-28 14:04:09.401 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - 200 null application/json; charset=utf-8 21.0093ms
+2026-05-28 14:04:31.894 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/api/Transactions/GetFundSummary - null null
+2026-05-28 14:04:31.900 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.TransactionsController.GetFundSummary (FundAdministrationAPI)'
+2026-05-28 14:04:31.908 +05:30 [INF] Route matched with {action = "GetFundSummary", controller = "Transactions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFundSummary() on controller FundAdministrationAPI.Controllers.TransactionsController (FundAdministrationAPI).
+2026-05-28 14:04:32.034 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType1`6[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType3`5[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType4`4[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[FundAdministrationAPI.Models.TransactionType, FundAdministrationAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], FundAdministrationAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], FundAdministrationAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], FundAdministrationAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-28 14:04:32.047 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.TransactionsController.GetFundSummary (FundAdministrationAPI) in 136.7011ms
+2026-05-28 14:04:32.049 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.TransactionsController.GetFundSummary (FundAdministrationAPI)'
+2026-05-28 14:04:32.051 +05:30 [INF] HTTP GET /api/Transactions/GetFundSummary responded 200 in 152.1698 ms
+2026-05-28 14:04:32.055 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/api/Transactions/GetFundSummary - 200 null application/json; charset=utf-8 160.6468ms
+2026-05-28 14:06:53.312 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - application/json 137
+2026-05-28 14:06:53.315 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 14:06:53.317 +05:30 [INF] Route matched with {action = "CreateTransaction", controller = "Transactions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTransaction(FundAdministrationAPI.DTOs.CreateTransactionDto) on controller FundAdministrationAPI.Controllers.TransactionsController (FundAdministrationAPI).
+2026-05-28 14:06:53.395 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-05-28 14:06:53.430 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI) in 110.5454ms
+2026-05-28 14:06:53.433 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 14:06:53.435 +05:30 [INF] HTTP POST /api/Transactions/CreateTransaction responded 400 in 120.0756 ms
+2026-05-28 14:06:53.439 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - 400 null application/problem+json; charset=utf-8 126.63ms
+2026-05-28 14:07:28.007 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - application/json 139
+2026-05-28 14:07:28.023 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 14:07:28.033 +05:30 [INF] Route matched with {action = "CreateTransaction", controller = "Transactions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTransaction(FundAdministrationAPI.DTOs.CreateTransactionDto) on controller FundAdministrationAPI.Controllers.TransactionsController (FundAdministrationAPI).
+2026-05-28 14:07:28.041 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-05-28 14:07:28.043 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI) in 4.8453ms
+2026-05-28 14:07:28.046 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.TransactionsController.CreateTransaction (FundAdministrationAPI)'
+2026-05-28 14:07:28.047 +05:30 [INF] HTTP POST /api/Transactions/CreateTransaction responded 400 in 25.0079 ms
+2026-05-28 14:07:28.052 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Transactions/CreateTransaction - 400 null application/problem+json; charset=utf-8 45.1937ms
+2026-05-28 14:13:34.728 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/api/Funds/GetAllFunds - null null
+2026-05-28 14:13:34.732 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.FundsController.GetAllFunds (FundAdministrationAPI)'
+2026-05-28 14:13:34.734 +05:30 [INF] Route matched with {action = "GetAllFunds", controller = "Funds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFunds() on controller FundAdministrationAPI.Controllers.FundsController (FundAdministrationAPI).
+2026-05-28 14:13:34.737 +05:30 [INF] Fetching all funds
+2026-05-28 14:13:34.741 +05:30 [INF] Fetching completed for all funds
+2026-05-28 14:13:34.742 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FundAdministrationAPI.Models.Fund, FundAdministrationAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-28 14:13:34.744 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.FundsController.GetAllFunds (FundAdministrationAPI) in 7.2398ms
+2026-05-28 14:13:34.746 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.FundsController.GetAllFunds (FundAdministrationAPI)'
+2026-05-28 14:13:34.747 +05:30 [INF] HTTP GET /api/Funds/GetAllFunds responded 200 in 15.4375 ms
+2026-05-28 14:13:34.750 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/api/Funds/GetAllFunds - 200 null application/json; charset=utf-8 22.2829ms
+2026-05-28 14:14:29.217 +05:30 [INF] Request starting HTTP/1.1 DELETE http://localhost:5166/api/Funds/DeleteFund/8bbc0d7a-1409-4c59-9cc4-90c473e32387 - null null
+2026-05-28 14:14:29.220 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.FundsController.DeleteFund (FundAdministrationAPI)'
+2026-05-28 14:14:29.228 +05:30 [INF] Route matched with {action = "DeleteFund", controller = "Funds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteFund(System.Guid) on controller FundAdministrationAPI.Controllers.FundsController (FundAdministrationAPI).
+2026-05-28 14:14:29.236 +05:30 [INF] Delete funds record
+2026-05-28 14:14:29.335 +05:30 [INF] Saved 1 entities to in-memory store.
+2026-05-28 14:14:29.351 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2026-05-28 14:14:29.353 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.FundsController.DeleteFund (FundAdministrationAPI) in 120.3855ms
+2026-05-28 14:14:29.355 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.FundsController.DeleteFund (FundAdministrationAPI)'
+2026-05-28 14:14:29.357 +05:30 [INF] HTTP DELETE /api/Funds/DeleteFund/8bbc0d7a-1409-4c59-9cc4-90c473e32387 responded 204 in 136.4946 ms
+2026-05-28 14:14:29.360 +05:30 [INF] Request finished HTTP/1.1 DELETE http://localhost:5166/api/Funds/DeleteFund/8bbc0d7a-1409-4c59-9cc4-90c473e32387 - 204 null null 142.9515ms
+2026-05-28 14:18:54.064 +05:30 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-28 14:18:54.181 +05:30 [INF] Now listening on: http://localhost:5166
+2026-05-28 14:18:54.185 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-28 14:18:54.187 +05:30 [INF] Hosting environment: Development
+2026-05-28 14:18:54.188 +05:30 [INF] Content root path: C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI
+2026-05-28 14:19:03.840 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/index.html - null null
+2026-05-28 14:19:04.100 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/index.html - 200 null text/html;charset=utf-8 261.0088ms
+2026-05-28 14:19:04.274 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - null null
+2026-05-28 14:19:04.468 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 194.7498ms
+2026-05-28 14:19:16.663 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Authentication/GetToken - null 0
+2026-05-28 14:19:16.673 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-28 14:19:16.743 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.AuthenticationController.GetToken (FundAdministrationAPI)'
+2026-05-28 14:19:16.770 +05:30 [INF] Route matched with {action = "GetToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetToken() on controller FundAdministrationAPI.Controllers.AuthenticationController (FundAdministrationAPI).
+2026-05-28 14:19:16.775 +05:30 [INF] Generate Auth Token
+2026-05-28 14:19:16.821 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-28 14:19:16.849 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.AuthenticationController.GetToken (FundAdministrationAPI) in 71.1411ms
+2026-05-28 14:19:16.852 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.AuthenticationController.GetToken (FundAdministrationAPI)'
+2026-05-28 14:19:16.856 +05:30 [INF] HTTP POST /api/Authentication/GetToken responded 200 in 183.9059 ms
+2026-05-28 14:19:16.860 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Authentication/GetToken - 200 null application/json; charset=utf-8 197.6509ms
+2026-05-28 14:20:21.860 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/Funds/CreateFund - application/json 87
+2026-05-28 14:20:21.926 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.FundsController.CreateFund (FundAdministrationAPI)'
+2026-05-28 14:20:21.976 +05:30 [INF] Route matched with {action = "CreateFund", controller = "Funds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateFund(FundAdministrationAPI.DTOs.CreateFundDto) on controller FundAdministrationAPI.Controllers.FundsController (FundAdministrationAPI).
+2026-05-28 14:20:22.145 +05:30 [INF] Create funds record
+2026-05-28 14:20:22.637 +05:30 [INF] Saved 1 entities to in-memory store.
+2026-05-28 14:20:22.644 +05:30 [INF] Funds record created successfully
+2026-05-28 14:20:22.646 +05:30 [INF] Executing OkObjectResult, writing value of type 'FundAdministrationAPI.Models.Fund'.
+2026-05-28 14:20:22.657 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.FundsController.CreateFund (FundAdministrationAPI) in 678.6286ms
+2026-05-28 14:20:22.659 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.FundsController.CreateFund (FundAdministrationAPI)'
+2026-05-28 14:20:22.661 +05:30 [INF] HTTP POST /api/Funds/CreateFund responded 200 in 794.8090 ms
+2026-05-28 14:20:22.666 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/Funds/CreateFund - 200 null application/json; charset=utf-8 806.4166ms
+2026-05-28 14:20:57.220 +05:30 [INF] Request starting HTTP/1.1 DELETE http://localhost:5166/api/Funds/DeleteFund/e9283448-8491-4d28-ae50-cbe7ca9db1e1 - null null
+2026-05-28 14:20:57.233 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.FundsController.DeleteFund (FundAdministrationAPI)'
+2026-05-28 14:20:57.242 +05:30 [INF] Route matched with {action = "DeleteFund", controller = "Funds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteFund(System.Guid) on controller FundAdministrationAPI.Controllers.FundsController (FundAdministrationAPI).
+2026-05-28 14:20:57.256 +05:30 [INF] Delete funds record
+2026-05-28 14:20:57.527 +05:30 [INF] Saved 1 entities to in-memory store.
+2026-05-28 14:20:57.533 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-05-28 14:20:57.536 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.FundsController.DeleteFund (FundAdministrationAPI) in 290.4981ms
+2026-05-28 14:20:57.538 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.FundsController.DeleteFund (FundAdministrationAPI)'
+2026-05-28 14:20:57.539 +05:30 [INF] HTTP DELETE /api/Funds/DeleteFund/e9283448-8491-4d28-ae50-cbe7ca9db1e1 responded 200 in 313.9753 ms
+2026-05-28 14:20:57.543 +05:30 [INF] Request finished HTTP/1.1 DELETE http://localhost:5166/api/Funds/DeleteFund/e9283448-8491-4d28-ae50-cbe7ca9db1e1 - 200 null text/plain; charset=utf-8 322.6849ms
+2026-05-28 14:21:58.350 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/api/Funds/GetAllFunds - null null
+2026-05-28 14:21:58.356 +05:30 [INF] Executing endpoint 'FundAdministrationAPI.Controllers.FundsController.GetAllFunds (FundAdministrationAPI)'
+2026-05-28 14:21:58.364 +05:30 [INF] Route matched with {action = "GetAllFunds", controller = "Funds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFunds() on controller FundAdministrationAPI.Controllers.FundsController (FundAdministrationAPI).
+2026-05-28 14:21:58.371 +05:30 [INF] Fetching all funds
+2026-05-28 14:21:58.405 +05:30 [INF] Fetching completed for all funds
+2026-05-28 14:21:58.407 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FundAdministrationAPI.Models.Fund, FundAdministrationAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-28 14:21:58.411 +05:30 [INF] Executed action FundAdministrationAPI.Controllers.FundsController.GetAllFunds (FundAdministrationAPI) in 44.4354ms
+2026-05-28 14:21:58.414 +05:30 [INF] Executed endpoint 'FundAdministrationAPI.Controllers.FundsController.GetAllFunds (FundAdministrationAPI)'
+2026-05-28 14:21:58.416 +05:30 [INF] HTTP GET /api/Funds/GetAllFunds responded 200 in 61.9361 ms
+2026-05-28 14:21:58.419 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/api/Funds/GetAllFunds - 200 null application/json; charset=utf-8 68.4796ms

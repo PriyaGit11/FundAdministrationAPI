@@ -10,9 +10,6 @@ namespace FundAdministrationAPI.Models
  
         public Guid FundId { get; set; } 
  
-        public Fund? Fund { get; set; } 
- 
-        public ICollection<Transaction> Transactions { get; set; } 
-            = new List<Transaction>(); 
+        public Fund? Fund { get; set; }  
     } 
 } 

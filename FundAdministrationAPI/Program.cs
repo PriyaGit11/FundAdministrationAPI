@@ -112,7 +112,7 @@ app.UseSwaggerUI();
 // Serilog Request Logging 
 app.UseSerilogRequestLogging();
 
-// Redirect to HTTPS
+// Automatically Redirect to HTTPS
 app.UseHttpsRedirection(); 
 
 // Authentication & Authorization 

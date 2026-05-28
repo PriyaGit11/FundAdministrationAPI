@@ -48,6 +48,10 @@ namespace FundAdministrationAPI.Controllers
         public async Task<IActionResult> CreateFund(CreateFundDto dto) 
         { 
             _logger.LogInformation("Create funds record");
+            if (dto.LaunchDate > DateTime.UtcNow)
+            {
+                return BadRequest("Launch date cannot be future date");
+            }
             var fund = new Fund 
             { 
                 FundId = Guid.NewGuid(), 
@@ -87,7 +91,7 @@ namespace FundAdministrationAPI.Controllers
             _logger.LogInformation("Delete funds record");
             await _fundRepository.DeleteAsync(id); 
  
-            return NoContent(); 
+            return Ok("Funds record deleted"); 
         } 
     } 
 }

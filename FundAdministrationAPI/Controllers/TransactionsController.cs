@@ -27,6 +27,10 @@ namespace FundAdministrationAPI.Controllers
         [HttpPost("CreateTransaction")] 
         public async Task<IActionResult> CreateTransaction(CreateTransactionDto dto) 
         { 
+            if (dto.TransactionDate > DateTime.UtcNow)
+            {
+                return BadRequest("Transaction date cannot be future date");
+            }
             var transaction = new Transaction 
             { 
                 TransactionId = Guid.NewGuid(), 
@@ -54,38 +58,65 @@ investorId)
         [HttpGet("GetFundSummary")] 
         public async Task<IActionResult> GetFundSummary() 
         { 
-            var result = await _context.Transactions 
-                .Include(x => x.Investor) 
-                .GroupBy(x => x.Investor!.FundId) 
-                .Select(g => new 
-                { 
-                    FundId = g.Key, 
- 
-                    TotalSubscribed = g 
-                        .Where(x => x.Type == TransactionType.Subscription) 
-                        .Sum(x => x.Amount), 
- 
-                    TotalRedeemed = g 
-                        .Where(x => x.Type == TransactionType.Redemption) 
-                        .Sum(x => x.Amount), 
- 
-                    NetInvestment = 
-                        g.Where(x => x.Type == TransactionType.Subscription) 
-                         .Sum(x => x.Amount) 
- 
-                        - 
- 
-                        g.Where(x => x.Type == TransactionType.Redemption) 
-                         .Sum(x => x.Amount), 
- 
-                    InvestorCount = g 
-                        .Select(x => x.InvestorId) 
-                        .Distinct() 
-                        .Count() 
-                }) 
-                .ToListAsync(); 
- 
-            return Ok(result); 
-        } 
+            var result = await _context.Transactions
+            .Include(x => x.Investor)
+            .GroupBy(x => x.Investor!.FundId)
+            .Select(g => new
+            {
+                FundId = g.Key,
+
+                TotalSubscribed = g
+                    .Where(x => x.Type == TransactionType.Subscription)
+                    .Sum(x => x.Amount),
+
+                TotalRedeemed = g
+                    .Where(x => x.Type == TransactionType.Redemption)
+                    .Sum(x => x.Amount),
+
+                NetInvestment =
+                    g.Where(x => x.Type == TransactionType.Subscription)
+                    .Sum(x => x.Amount)
+                    -
+                    g.Where(x => x.Type == TransactionType.Redemption)
+                    .Sum(x => x.Amount),
+
+                InvestorCount = g
+                    .Select(x => x.InvestorId)
+                    .Distinct()
+                    .Count(),
+
+                Investors = g
+                    .GroupBy(x => new
+                    {
+                        x.InvestorId,
+                        x.Investor!.FullName
+                    })
+                    .Select(i => new
+                    {
+                        InvestorId = i.Key.InvestorId,
+
+                        InvestorName = i.Key.FullName,
+
+                        TotalSubscribed = i
+                            .Where(x => x.Type == TransactionType.Subscription)
+                            .Sum(x => x.Amount),
+
+                        TotalRedeemed = i
+                            .Where(x => x.Type == TransactionType.Redemption)
+                            .Sum(x => x.Amount),
+
+                        Transactions = i.Select(t => new
+                        {
+                            t.TransactionId,
+                            t.Type,
+                            t.Amount,
+                            t.TransactionDate
+                        }).ToList()
+                    }).ToList()
+            })
+            .ToListAsync();
+
+            return Ok(result);
+        }
     } 
 }

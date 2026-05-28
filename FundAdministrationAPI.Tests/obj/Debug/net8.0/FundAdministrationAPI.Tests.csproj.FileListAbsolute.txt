@@ -180,3 +180,4 @@ C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI.Tests\obj\De
 C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI.Tests\obj\Debug\net8.0\FundAdministrationAPI.Tests.pdb
 C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI.Tests\obj\Debug\net8.0\FundAdministrationAPI.Tests.genruntimeconfig.cache
 C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI.Tests\obj\Debug\net8.0\ref\FundAdministrationAPI.Tests.dll
+C:\Users\Lenovo\Desktop\FundAdministrationAPI\FundAdministrationAPI.Tests\obj\Debug\net8.0\FundAdministrationAPI.Tests.sourcelink.json
